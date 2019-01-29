@@ -54,6 +54,9 @@ docker build -t tsubasaxzzz/website2 .
 ```
 
 起動
+```
+docker run -p 8000:80 -d tsubasaxzzz/website2
+```
 
 ## 複数のコンテナを同時に起動させる(docker-compose)
 ### 作成
