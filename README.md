@@ -1,3 +1,5 @@
+**注)各コンテナイメージを利用前に必ずライセンス条項を確認する**
+
 # Docker でコンテナを起動する(Docker for Windows)
 ## nginx
 ```
@@ -11,6 +13,8 @@ docker run -it --rm -p 8081:8080 tomcat:8.0
 ```
 
 ## Oracle
+※Oracle のライセンス条項を確認する
+https://hub.docker.com/_/oracle-database-enterprise-edition
 
 ```
 docker run -d -it --name myoracle store/oracle/database-enterprise:12.2.0.1
