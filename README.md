@@ -61,6 +61,7 @@ docker run -p 8000:80 -d tsubasaxzzz/website2
 ## 複数のコンテナを同時に起動させる(docker-compose)
 ### 作成
 ```
+cd wordpress
 docker-compose.exe up
 ```
 ### 削除
